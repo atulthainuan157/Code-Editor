@@ -1,0 +1,71 @@
+# =========================================================================
+# Dependencies
+# =========================================================================
+node_modules/
+/frontend/node_modules/
+/backend/node_modules/
+jspm_packages/
+web_modules/
+
+# =========================================================================
+# Environment Variables & Secrets (CRITICAL: Never commit these)
+# =========================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.json
+config/local.json
+
+# =========================================================================
+# Build & Production Outputs
+# =========================================================================
+dist/
+build/
+out/
+.next/
+.nuxt/
+server/dist/
+
+# =========================================================================
+# Logs and Diagnostics
+# =========================================================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================================================================
+# Editor & OS Clutter
+# =========================================================================
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
+
+# =========================================================================
+# Testing & Coverage
+# =========================================================================
+/coverage/
+.nyc_output
+.jest/
+
+# =========================================================================
+# Miscellaneous Caches
+# =========================================================================
+.eslintcache
+.stylelintcache
+.turbo/
+.cache/
